@@ -11,22 +11,42 @@
     </header>
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
-          <div class="container">
-            {% for tag in site.tags %}
-            <li>
-              <a href="/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a> ({{
-              tag[1].size }})
-            </li>
-            {% endfor %}
 
-            <!-- CONTENT -->
-            {{content}}
-            <!-- /CONTENT -->
+          <div class="container">
+
+            <article>
+
+              <p>
+                <hgroup>
+                    <h2 class="pico-color-indigo-650">{{ page.title }}</h2>
+                    <br>
+                    <p>
+                      {{ page.sum }}
+                    </p>
+                    <hr>
+
+                    {% for tag in page.tags %}
+
+                    <span
+                        class="tag {{ tag | slugify }}"
+                        style="background-color: {{ site.data.tag_colors[tag] }};"
+                      >
+                        <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+                      </span>
+                    {% unless forloop.last %}
+                    {% endunless %}
+                    {% endfor %}
+                </hgroup>
+              </p>
+
+            </article>
+
+            <article class="post_info">
+              <!-- CONTENT -->
+              {{content}}
+              <!-- /CONTENT -->
+            </article>
           </div>
-        </div>
-      </div>
     </main>
 
     {% include footer.html %}
