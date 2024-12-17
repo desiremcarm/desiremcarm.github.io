@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <!-- HEADER -->
+      {% include header.html %}
+      <!-- /HEADER -->
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+          <div class="container">
+            <!-- CONTENT -->
+            {{content}}
+            <!-- /CONTENT -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
