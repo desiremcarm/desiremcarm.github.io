@@ -14,6 +14,13 @@
       <div class="wrapper">
         <div class="home">
           <div class="container">
+            {% for tag in site.tags %}
+            <li>
+              <a href="/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a> ({{
+              tag[1].size }})
+            </li>
+            {% endfor %}
+
             <!-- CONTENT -->
             {{content}}
             <!-- /CONTENT -->
