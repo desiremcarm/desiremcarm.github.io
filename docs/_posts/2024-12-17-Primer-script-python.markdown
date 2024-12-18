@@ -53,7 +53,7 @@ spells = ["alzar a los muertos", "crear muerto viviente",
 levels = [5, 6, 3, 1]
 ```
 
-Lo que queremos es combinar los datos, **no simplemente añadir una tupla a la otra**. Queremos que `"alzar a los muertos"` esté relacionado con el valor de nivel `5` de `levels`.
+Lo que queremos es combinar los datos, **no simplemente añadir una lista a la otra**. Queremos que `"alzar a los muertos"` esté relacionado con el valor de nivel `5` de `levels`.
 
 Podríamos hacer toda una funcionalidad para conseguir este resultado... Pero `zip()` nos lo hace mucho más fácil.
 
@@ -92,9 +92,9 @@ Esto nos devolverá:
  ('hablar con los muertos', 3), ('falsa vida', 1)]
 ```
 
-Es importante saber que la función `zip()` crea una tupla considerando el objeto con **menor** cantidad de elementos.
+Es importante saber que la función `zip()` crea una iterador de tuplas considerando el objeto con **menor** cantidad de elementos.
 
-Es decir, si en lugar de 4 valores dentro de la tupla `levels` hubiera sólo 3, `zip()` ignoraría el nombre del último hechizo. Cuando se acabasen los valores de `levels`, dejaría de leer datos.
+Es decir, si en lugar de 4 valores dentro de la lista `levels` hubiera sólo 3, `zip()` ignoraría el nombre del último hechizo. Cuando se acabasen los valores de `levels`, dejaría de leer datos.
 
 ### 2️⃣ Iterando con zip
 
