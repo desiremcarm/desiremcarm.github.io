@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1>Artículos con la etiqueta: {{ page.tag }}</h1>
-
 <div class="post_holder">
+  <h1>Artículos con la etiqueta: #{{ page.tag }}</h1>
+
   {% for post in site.tags[page.tag] %}
 
   <article>
