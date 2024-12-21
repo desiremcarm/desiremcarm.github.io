@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Iterar dos o más iterables con zip()"
-date:   2024-12-17 18:17:33 +0100
+title: "Iterar dos o más iterables con zip()"
 date: 2024-12-17 18:17:33 +0100
-tags: [python]
-sum: "Une dos iterables o itera sobre ellos conjuntamente con zip()"
+tags: [python, frontend]
+sum: "Une dos iterables o itera sobre ellos conjuntamente con <code>zip()</code>."
 ---
 
 ### 📌 Resumen

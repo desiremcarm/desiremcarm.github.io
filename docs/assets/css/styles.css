@@ -9,12 +9,36 @@ hgroup p {
   font-size: 18px;
 }
 
+article h3 > a {
+  color: var(--pico-color-indigo-750) !important;
+}
+
+article h2,
+h3,
+h4,
+h4 {
+  color: var(--pico-color-indigo-750) !important;
+}
+
+article h2 > a {
+  color: var(--pico-color-indigo-750) !important;
+}
+
+article a {
+  color: var(--pico-color-pink-400);
+}
+
+article a:visited {
+  color: var(--pico-color-pink-400);
+}
+
 .post_holder {
   width: 100% !important;
   display: flex;
   gap: 35px;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .post_holder a {
@@ -33,6 +57,10 @@ hgroup p {
   font-family: "Ubuntu", sans-serif !important;
   margin-right: 5px;
   font-size: 16px !important;
+}
+
+.tag a {
+  color: navy !important;
 }
 
 .post_holder article {
