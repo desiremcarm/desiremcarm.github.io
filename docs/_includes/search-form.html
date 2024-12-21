@@ -1,0 +1,36 @@
+<!-- HTML search field -->
+<div id="search-container">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Busca palabras clave. Por ejemplo: listas"
+    autofocus
+  />
+
+  <div id="results-container" class="container"></div>
+</div>
+
+<!-- Grab search-script.js -->
+<script src="/assets/js/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+  const HTMLtemplate = `
+    <div class="search_results_holder">
+      <article>
+        <h5>
+          <a href="{url}">{title}</a>
+        </h5>
+        <span>{sum}</span>
+        <br>
+        <span class="post-meta">{date}</span>
+      </article>
+    </div>
+  `;
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "/search.json",
+    searchResultTemplate: HTMLtemplate,
+  });
+</script>

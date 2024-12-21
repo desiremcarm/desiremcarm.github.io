@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Uso de extend, append e insert en listas"
-date: 2024-12-17 18:17:33 +0100
+date: 2024-12-21 18:17:33 +0100
 tags: [python, frontend]
 sum: "Domina los métodos <code>append</code>, <code>extend</code> e <code>insert</code> para manipular listas en Python."
 ---

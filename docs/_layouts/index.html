@@ -12,6 +12,13 @@
 
     <main class="page-content" aria-label="Content">
       <div class="container">
+        <!-- Search bar -->
+        <h3>🔎 Búsqueda:</h3>
+        {% include search-form.html %}
+        <!-- Search bar -->
+        <hr />
+
+        <h3>🔮 Posts:</h3>
         <div class="post_holder">
           {% for post in site.posts %}
 
