@@ -6,6 +6,7 @@
   gap: 10px;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
 }
 
 #results-container article {
