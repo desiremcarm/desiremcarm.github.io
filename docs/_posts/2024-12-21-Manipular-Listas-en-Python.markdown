@@ -55,8 +55,6 @@ vox_machina.insert(0, 'Pike')
 
 El método `append()` será el favorito si **tienes que añadir valores individuales a una lista** en Python.
 
-Sin embargo, estudiemos un poco más a fondo su comportamiento.
-
 Primero, veamos un ejemplo de lo más sencillo. Tenemos la siguiente lista:
 
 ```python
