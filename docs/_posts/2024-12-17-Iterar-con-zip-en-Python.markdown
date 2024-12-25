@@ -40,7 +40,7 @@ falsa vida 1
 
 ---
 
-### 0️⃣ Situación
+### 🟪 Situación
 
 Imaginemos que tenemos dos iterables, `spells` y `levels`, que deberían estar relacionados pero están separados.
 
@@ -56,7 +56,7 @@ Lo que queremos es combinar los datos, **no simplemente añadir una lista a la o
 
 Podríamos hacer toda una funcionalidad para conseguir este resultado... Pero `zip()` nos lo hace mucho más fácil.
 
-### 1️⃣ La función `zip()`
+### 🟪 La función `zip()`
 
 La función `zip()` de Python **devuelve un objeto iterable de tuplas**.
 Cada tupla **contiene una combinación de los elementos de cada objeto recibido**.
@@ -95,7 +95,7 @@ Es importante saber que la función `zip()` crea una iterador de tuplas consider
 
 Es decir, si en lugar de 4 valores dentro de la lista `levels` hubiera sólo 3, `zip()` ignoraría el nombre del último hechizo. Cuando se acabasen los valores de `levels`, dejaría de leer datos.
 
-### 2️⃣ Iterando con zip
+### 🟪 Iterando con zip
 
 También podemos utilizar `zip()` para iterar dos iterables (o más) de forma más cómoda.
 

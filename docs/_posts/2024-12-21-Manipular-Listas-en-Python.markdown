@@ -3,7 +3,7 @@ layout: post
 title: "Uso de extend, append e insert en listas"
 date: 2024-12-21 18:17:33 +0100
 tags: [python, frontend]
-sum: "Domina los métodos <code>append</code>, <code>extend</code> e <code>insert</code> para manipular listas en Python."
+sum: "Domina <code>append</code>, <code>extend</code> e <code>insert</code> para manipular listas en Python."
 ---
 
 ### 📌 Resumen
@@ -51,7 +51,7 @@ vox_machina.insert(0, 'Pike')
 
 ---
 
-### 0️⃣ <a name="append">Agregando datos con `append`</a>
+### 🟪 <a name="append">Agregando datos con `append`</a>
 
 El método `append()` será el favorito si **tienes que añadir valores individuales a una lista** en Python.
 
@@ -115,7 +115,7 @@ Resultado:
 'Pike'
 ```
 
-### 1️⃣ <a name="extend">Agregando datos con `extend`</a>
+### 🟪 <a name="extend">Agregando datos con `extend`</a>
 
 El método `extend`, a diferencia de `append`, recibe un conjunto de valores, **los desempaqueta** y los **añade uno por uno** a la lista.
 
@@ -155,7 +155,7 @@ Resultará en:
 ['Grog', 'Keyleth', 'Scanlan', "Vax'ildan", "Vex'ahlia", 'Percival', 'P', 'i', 'k', 'e']
 ```
 
-### 2️⃣ <a name="insert">Agregando datos con `insert`</a>
+### 🟪 <a name="insert">Agregando datos con `insert`</a>
 
 Finalmente topamos con el método `insert`.
 
