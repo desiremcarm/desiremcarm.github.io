@@ -138,10 +138,6 @@ Ahí deberías ver tu mensaje de esta forma:
 }
 ```
 
-## Docs
-
-Algo genial sobre FastAPI es que escribe automáticamente la documentación de la API. Puedes ver
-
 ## 🟪 Explicación
 
 #### Importar FastAPI
