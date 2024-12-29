@@ -4,6 +4,7 @@ title: "Crea una API con FastAPI y Python"
 date: 2024-12-21 18:17:33 +0100
 tags: [python, apis, backend]
 sum: "Crea una API simple y funcional utilizando FastAPI y Python."
+published: false
 ---
 
 ### 📌 Resumen
